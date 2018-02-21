@@ -1,0 +1,292 @@
+/* Start Main rulez*/
+*{
+	box-sizing: border-box;
+}
+
+/* Start Fonts */
+@font-face {
+    font-family: 'noticia_textregular';
+    src: url('fonts/noticiatext-regular-webfont.woff2') format('woff2'),
+         url('fonts/noticiatext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ }  
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#result{
+}
+#result .alert{
+	
+}
+
+
+	body{
+		margin: 0;
+		padding: 0;
+	    font-family: 'latoregular';	
+	}
+	/* End Fonts */
+	/* End Main rulez*/
+
+	/* Start Login */
+	#login{
+		width: 100%
+	}
+	#login .login{
+		width: 50%;
+		margin: auto;
+		text-align: center;
+		margin-top: 5px;
+		border: 1px solid #CCC;
+		background: rgba(197, 201, 219,0.2);
+	}
+	#login .login h1{
+		color: #ae3242
+	}
+	#login .login form{
+		
+	}
+	#login .login form div{
+		padding: 15px;
+		width: 100%
+	}
+	#login .login form div input[type="text"],#login .login form div input[type="password"]{
+		width: 35%;
+		padding: 5px;
+		font-size: 18px;
+		padding: 3px;
+		color: #ae3242 
+	}
+	#login .login form div input[type="submit"]{
+		background-color: #00dc72;
+		border: 0;
+		cursor: pointer;
+		padding: 6px 10px;
+		font-size: 18px
+	}
+	/* End Login */
+
+	/* Start Header */
+	header{
+		width: 100%;
+		background-color: #ccc
+	}
+	header ul{
+		list-style: none;
+		overflow: hidden;
+		width: 100%;
+		padding: 9px;
+		margin: 0
+	}
+	header ul li{
+		float: left;
+		margin-left: 40px;
+	}
+	header ul li a{
+		text-decoration: none;
+		color: #ae3242;
+		font-size: 22px
+	}
+	header ul li a:hover{
+		color: #000
+	}
+	/* End Header */
+
+	/* Start Main */
+	main{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: #aa525c;
+		color: #FFF;
+		width: 100%;
+		padding: 5px;
+		min-height: 500px;
+	}
+	main table{
+		/* border: 1px solid #FFF */
+		overflow-x: scroll;
+	}
+	main .tables{
+		overflow: hidden;
+		
+	}
+	main .tables .formindex{
+		display: grid;
+		grid-template-columns: 1fr 1.5fr;
+		grid-column-gap: 10px;
+		margin-bottom: 3px;
+		padding: 10px 15px;																								px
+	}
+	main .tables .formindex input[type='text']{
+		width: 68%;
+		border: 1px solid rgb(95, 85, 85);
+		padding: 2px 6px
+	}
+	main .tables .formindex input[type='date']{
+		border: 1px solid rgb(95, 85, 85);
+		padding: 2px 6px;
+		width: 23%;
+	}
+	main .tables .formindex input[type='submit']{
+		border: 1px solid rgb(95, 85, 85);
+		padding: 2px 6px;
+		cursor: pointer;
+	}
+	main .tables .formindex .left-form{
+
+	}
+	main .tables .formindex .left-form .label-file{
+		background-color: #FFF;
+		color: #000;
+		padding: 2px 6px;
+		font-weight: bold;
+		border: 1px solid rgb(95, 85, 85);
+	}
+	main .tables .top-tables{
+		margin-bottom: 40px;
+		width: 70%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr
+	}
+	main .tables .top-tables .formpointagevente{
+		margin: auto;
+		text-align: center;
+		padding: 5px;
+	}
+	main .tables .top-tables .formpointagevente input[type="text"]{
+
+	}
+	main .tables .top-tables .formpointagevente label{
+		background-color: #FFF;
+		padding: 4px;
+		color:  #000
+	}
+	main .tables .top-tables .formpointagevente input[type="submit"]{
+
+	}	
+	main .tables .top-tables .right-top-tables{
+		
+	}
+	main .tables .top-tables .right-top-tables h6{
+		margin-bottom: 1px
+	}
+	main .tables .top-tables .right-top-tables .form-date-poitage-vente{
+		display: inline;
+	}
+
+	main .tables .table-pointage-vente{
+		width: 49%;
+		float: left;
+		margin-right: 1%;
+	}
+	main .tables .form-index-vente{
+		padding: 5px;
+		text-align: center;
+		width: 50%;
+		margin: auto;
+		border: 1px solid #ccc
+	}
+	main .tables .form-index-vente input[type='date']{
+		width: 30%;
+		margin: auto
+	}
+	main .tables .form-regenerer-vente{
+		padding: 5px;
+		text-align: center;
+		margin: auto;
+		
+	}
+	main .tables .form-regenerer-vente input[type='date']{
+		margin: auto
+	}
+	main .tables .deux-tables{
+		display: grid;
+		grid-template-columns: 1fr 1.25fr;
+		grid-column-gap: 5px
+	}
+	main input[type=radio] {
+		display: none;
+	}
+	main .label{
+		display: inline-block;
+		margin: 0 0 -1px;
+		padding: 11px 16px;    
+		font-weight: 600;
+		text-align: center;
+		color: #000;
+		border: 1px solid transparent;
+		border-top-right-radius: 2px;
+		border-top-left-radius: 2px;
+		border: 1px solid #ddd;
+	}
+	main label:hover {
+	color: #888;
+	cursor: pointer;
+	}
+	
+	main input:checked + label {
+	
+	border: 1px solid #ddd;
+	border-bottom: 1px solid #fff;
+	color: #FFF
+	}
+	
+	#tab1:checked ~ #content1,
+	#tab2:checked ~ #content2,
+	#tab3:checked ~ #content3,
+	#tab4:checked ~ #content4, 
+	#tab5:checked ~ #content5
+	{
+	display: block;
+	padding: 2px 5px;
+    border: 1px solid #FFF;
+	}
+	#content1{
+		display: none;
+	}  
+	#content2{
+		display: none;
+	} 
+
+	
+	/* End Main */
+
+	/* Start Footer */
+	footer{
+		background-color: #ccc;
+		padding: 15px 3px;
+		overflow: hidden;
+		color: #000;
+		font-weight: bold;
+		margin-bottom: 50px
+	}
+	footer .left{
+		float: left;
+	}
+	footer .right{
+		float: right
+	}
+	/* End Footer */
+
+	/* Start Bootstrap */
+	.table-bordered td, .table-bordered th{
+		padding: 11px
+	}
+	/* End Bootstrap */
